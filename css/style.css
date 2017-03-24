@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,31 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+html {
+  background: url(../images/pattern1.png)
+}
+
+body {
+  width: 70%;
+  margin: auto;
+}
+
+h2, h3 {
+  font-family: cursive;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+header, footer {
+  background-color: indianred;
+}
+main {
+  background-color: white;
+}
+
+#hero-image {
+  width: 100%;
+}
